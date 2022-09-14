@@ -11,26 +11,32 @@ public class slillbilding {
 		
 		Scanner userinput = new Scanner(System.in);
 		
-	int age = 45;
+	int age;
 	double salary;
 	String name;
 	char Firstinitial;
 
-	age= userinput.nextInt();
-	
-	salary = userinput.nextDouble();
 	
 	System.out.println ("Please enter your full name");
-	System.out.println( "Your age is" + age + "and your salary is"+ salary);
-	
 	name = userinput.nextLine(); 
+	System.out.println( "The name you've entered is: " + name );
 	
-	System.out.println( "The name you've entered is; " + name );
+	System.out.println("Please enter your age "); 
+	age= userinput.nextInt();
 	
-	System.out.println("Please enter you age "); 
+	System.out.println( "Please enter your salary");
+	salary = userinput.nextDouble();
+	
+	System.out.println( "The name you've entered is: " + name + " and your age is: " + age);
+
+	
+	System.out.println( "Your age is " + age  + " and your salary is "+ salary);
 	
 	
-	System.out.println( "The name you've entered is; " + name + "and your age is: " + age);
+
+	
+	
+	
 	
 	
 	
